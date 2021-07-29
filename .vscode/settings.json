@@ -1,4 +1,4 @@
 {
     "appService.deploySubpath": ".",
-    "appService.defaultWebAppToDeploy": "/subscriptions/aaf7cd6f-f77a-41f3-8a25-289612c409ed/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/AznewsUZ"
+    "appService.defaultWebAppToDeploy": "/subscriptions/aaf7cd6f-f77a-41f3-8a25-289612c409ed/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/AZNewsuz"
 }
