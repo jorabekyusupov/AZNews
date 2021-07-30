@@ -47,7 +47,7 @@ if ($connect) {
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>News HTML-5 Template </title>
+    <title>AzNews</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="manifest" href="site.webmanifest">
@@ -66,6 +66,15 @@ if ($connect) {
     <link rel="stylesheet" href="assets/css/slick.css">
     <link rel="stylesheet" href="assets/css/nice-select.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <style>
+        .crop {
+            width: 240px;
+            height: 140px;
+            overflow: hidden;
+        }
+
+  
+    </style>
 </head>
 
 <body>
@@ -126,8 +135,8 @@ if ($connect) {
                                 <div class="row">
                                     <div class="col-lg-4">
                                         <div class="single-bottom mb-35">
-                                            <div class="trend-bottom-img mb-30">
-                                                <img width="237" height="133" src="<?= $jahon->img ?>" alt="">
+                                            <div class="trend-bottom-img mb-30 crop">
+                                                <img src="<?= $jahon->img ?>" alt="">
                                             </div>
                                             <div class="trend-bottom-cap">
                                                 <span class="color1"> <?= "Dunyo Yangiliklari" ?> </span>
@@ -137,8 +146,8 @@ if ($connect) {
                                     </div>
                                     <div class="col-lg-4">
                                         <div class="single-bottom mb-35">
-                                            <div class="trend-bottom-img mb-30">
-                                                <img cr width="237" height="133"  src="<?= $sport->img ?>" alt="">
+                                            <div class="trend-bottom-img mb-30 crop">
+                                                <img src="<?= $sport->img ?>" alt="">
                                             </div>
                                             <div class="trend-bottom-cap">
                                                 <span class="color1"> <?= "Sport Yangiliklari" ?> </span>
@@ -148,8 +157,8 @@ if ($connect) {
                                     </div>
                                     <div class="col-lg-4">
                                         <div class="single-bottom mb-35">
-                                            <div class="trend-bottom-img mb-30">
-                                                <img width="237" height="133"  src="<?= $tech->img ?>" alt="">
+                                            <div class="trend-bottom-img mb-30 crop">
+                                                <img src="<?= $tech->img ?>" alt="">
                                             </div>
                                             <div class="trend-bottom-cap">
                                                 <span class="color1"> <?= "Dunyo Yangiliklari" ?> </span>
@@ -168,7 +177,9 @@ if ($connect) {
 
                                 <div class="trand-right-single d-flex">
                                     <div class="trand-right-img">
-                                        <img width="120" height="100" src="<?= $item->img ?>" alt="">
+                                        <img style="    width: 120px;
+                height: 120px;
+                overflow: hidden;" src="<?= $item->img ?>" alt="">
                                     </div>
                                     <div class="trand-right-cap">
                                         <span style="margin-bottom: 5px !important;" class="color1 "><?= $item->hour ?></span>
@@ -350,7 +361,7 @@ if ($connect) {
         </section>
         <!-- Whats New End -->
         <!--   4 -->
-      
+
         <!-- End Weekly-News -->
         <!-- Start Youtube -->
 
@@ -370,9 +381,9 @@ if ($connect) {
                     <div class="row">
                         <div class="col-12">
                             <div class="recent-active dot-style d-flex dot-style">
-                             
-                                <? foreach ($news2 as $item) {?>
-                                    
+
+                                <? foreach ($news2 as $item) { ?>
+
                                     <div class="single-recent mb-100">
                                         <div class="what-img">
                                             <img width="370" height="250" src=" <?= $item->img ?> " alt="">
@@ -382,8 +393,8 @@ if ($connect) {
                                             <h4><a href="/details.php?id=<?= $item->id ?>"> <?= $item->title ?> </a></h4>
                                         </div>
                                     </div>
-                                    
-                                    <? } ?>
+
+                                <? } ?>
 
                             </div>
                         </div>
@@ -393,7 +404,7 @@ if ($connect) {
         </div>
         <!--Recent Articles End -->
         <!--Start pagination -->
- 
+
         <!-- End pagination  -->
     </main>
 

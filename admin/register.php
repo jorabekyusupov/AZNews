@@ -14,7 +14,7 @@ if (!isset($_SESSION['reg_admin'])) {
 <head>
   <meta charset="UTF-8">
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no" name="viewport">
-  <title>Otika - Admin Dashboard Template</title>
+  <title>AzNews - Admin</title>
   <!-- General CSS Files -->
   <link rel="stylesheet" href="assets/css/app.min.css">
   <link rel="stylesheet" href="assets/bundles/jquery-selectric/selectric.css">
@@ -23,7 +23,7 @@ if (!isset($_SESSION['reg_admin'])) {
   <link rel="stylesheet" href="assets/css/components.css">
   <!-- Custom style CSS -->
   <link rel="stylesheet" href="assets/css/custom.css">
-  <link rel='shortcut icon' type='image/x-icon' href='assets/img/favicon.ico' />
+  <link rel='shortcut icon' type='image/x-icon' href="/assets/img/logo/cc9f5ac842261e6ad2e996a4e2dc90af.png"/>
 </head>
 
 <body>

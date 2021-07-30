@@ -27,7 +27,7 @@ if ($connect) {
 <head>
   <meta charset="UTF-8">
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no" name="viewport">
-  <title>Otika - Admin Dashboard Template</title>
+  <title>AzNews - Admin</title>
   <!-- General CSS Files -->
   <link rel="stylesheet" href="assets/css/app.min.css">
   <link rel="stylesheet" href="assets/bundles/summernote/summernote-bs4.css">
@@ -42,7 +42,7 @@ if ($connect) {
   <link rel="stylesheet" href="assets/css/components.css">
   <!-- Custom style CSS -->
   <link rel="stylesheet" href="assets/css/custom.css">
-  <link rel='shortcut icon' type='image/x-icon' href='assets/img/favicon.ico' />
+  <link rel='shortcut icon' type='image/x-icon' href="/assets/img/logo/cc9f5ac842261e6ad2e996a4e2dc90af.png" />
 </head>
 
 <body>
@@ -56,7 +56,7 @@ if ($connect) {
         <section class="section">
           <div class="section-body">
             <div class="row">
-              <div class="col-6 col-md-6 col-lg-12">
+              <div class="col-12 col-md-6 col-lg-12">
               
                   <form action="./layouts/Action/create.php" method="POST" enctype="multipart/form-data">
           
