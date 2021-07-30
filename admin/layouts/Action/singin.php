@@ -26,6 +26,9 @@ if ($connect) {
                 }
                 header("Location: /admin/");
             }
+            else {
+                header("Location: /admin/");
+            }
         }
 
    
