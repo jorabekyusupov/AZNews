@@ -3,7 +3,7 @@
         public $__connect;
         public function __construct()
         {
-            $this->__connect = new mysqli('aznewsa.mysql.database.azure.com', 'YUSUPOV@aznewsa', '8118787Aa', 'aznew');
+            $this->__connect = new mysqli('29oj5odr85rij2o.cbetxkdyhwsb.us-east-1.rds.amazonaws.com', 'ua06gkvp4d12mm1c', 'd7oj9xfbcqcuqzww', 'uwfrauncnyex77g1');
         }
         function getConnect()
         {
